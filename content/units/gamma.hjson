@@ -21,7 +21,7 @@
         "lifetime": 70,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke",
-        "buildingDamageMultiplier": 0.05
+        "buildingDamageMultiplier": 0.01
       }
     },
     {
