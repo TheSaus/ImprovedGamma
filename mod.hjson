@@ -2,5 +2,5 @@ name: "improved-gamma"
 displayName: "Improved Gamma" //what displays in the mod selection menu
 author: "[cyan]The[white]-[cyan]Saus[white]#1038[]"
 description: "Buffs Gamma"
-version: "1"
+version: "1.1"
 minGameVersion: "122"
