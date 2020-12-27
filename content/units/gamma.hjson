@@ -1,26 +1,51 @@
-weapons:[
-  {
-    name: small-mount-weapon
-	top: false
-    x: 1
-    y: 2
-    reload: 15
-	ejectEffect: casing1
-	shots: 2
-	inaccuracy: 3
-	spacing: 2
-	shotDelay: 3
-    bullet:{
-      type: BasicBulletType
-	  speed: 3.5
-	  damage: 22
-	  width: 6.5
-	  height: 11
-	  homingPower: 0.04
-	  lifetime: 70
-	  shootEffect: shootSmall
-	  smokeEffect: shootSmallSmoke
-	  buildingDamageMultiplier: 0.05
+{
+  "weapons": [
+    {
+      "name": "small-mount-weapon",
+      "top": false,
+      "x": 1,
+      "y": 2,
+      "reload": 15,
+      "ejectEffect": "casing1",
+      "shots": 2,
+      "inaccuracy": 3,
+      "spacing": 2,
+      "shotDelay": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 3.5,
+        "damage": 11,
+        "width": 6.5,
+        "height": 11,
+        "homingPower": 0.04,
+        "lifetime": 70,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "buildingDamageMultiplier": 0.05
+      }
+    },
+    {
+      "name": "small-mount-weapon",
+      "top": false,
+      "x": 5,
+      "y": -3.5,
+      "reload": 20,
+      "ejectEffect": "casing1",
+      "shots": 1,
+      "inaccuracy": 2,
+      "recoil": 0.6,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 3.5,
+        "damage": 15,
+        "width": 6.5,
+        "height": 11,
+        "homingPower": 0.05,
+        "lifetime": 70,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "buildingDamageMultiplier": 0.05
+      }
     }
-  }
-]
+  ]
+}
