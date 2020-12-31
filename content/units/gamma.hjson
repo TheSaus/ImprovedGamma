@@ -29,7 +29,7 @@
       "top": true,
       "x": 5,
       "y": -3.5,
-      "reload": 30,
+      "reload": 7.5,
       "ejectEffect": "casing1",
       "shots": 1,
       "inaccuracy": 5,
@@ -39,32 +39,15 @@
       "bullet": {
         "type": "BasicBulletType",
         "speed": 3.5,
-        "damage": 5,
-		"splashDamage": 16,
-		"splashDamageRadius": 24,
-        "width": 9,
-        "height": 14,
+        "damage": 9,
+        "width": 4.5,
+        "height": 13,
         "homingPower": 0.04,
         "lifetime": 70,
+		"pierceCap": 2,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke",
-		"hitEffect": flakExplosion,
-        "buildingDamageMultiplier": 0.01,
-		"fragBullets": 3,
-		"fragBullet":{
-			"type": BasicBulletType,
-			"speed": 2.5,
-			"damage": 5,
-			"width": 3.25,
-			"height": 5.5,
-			"shrinkY": 1,
-			"lifetime": 20,
-			"backColor": 454545,
-			"frontColor": FFFFFF,
-			"despawnEffect": none,
-			"pierceCap": 2,
-			"buildingDamageMultiplier": 0.01
-		}
+        "buildingDamageMultiplier": 0.01
       }
     }
   ]
