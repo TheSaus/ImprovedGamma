@@ -26,7 +26,7 @@
     },
     {
       "name": "small-mount-weapon",
-      "top": true,
+      "top": false,
       "x": 5,
       "y": -3.5,
       "reload": 7.5,
