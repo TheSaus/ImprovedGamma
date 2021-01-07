@@ -1,2 +1,4 @@
 # ImprovedGamma
-gamma felt underpowered against even tier 1 or 2 units, so i buffed it while trying to keep it balanced
+Gives the core unit 'Gamma' a set of back weapons that can rotate
+
+![](https://media.giphy.com/media/EufzSyTObXXPuUFDUR/giphy.gif)
